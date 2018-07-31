@@ -14,12 +14,14 @@ A simple Python script to find the key used in a XOR cipher. With a cleartext me
 	note: encrypted messages should be stored in hexadecimal separated by a space (' ')
 2. Run
 	```
-	$ python break_xor_key.py enc dec
-	Text to decrypt:	070d174f55070d1c0a011c0d0d1d441b481d1f58
+	/usr/bin/python /Users/ywatanabe/Documents/code/break_xor_key/break_xor_key.py enc dec
+	Text to decrypt:	07 0d 17 4f 55 07 0d 1c 0a 01 1c 0d 0d 1d 44 1b 48 1d 1f 58
 	Decrypted text:		hey there secret spy
 	########################################
 		Decrypted key:		ohno!
 	########################################
+
+	Process finished with exit code 0
 	```
 
 #### Disclaimer:
